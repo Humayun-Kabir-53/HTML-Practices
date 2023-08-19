@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>University Admission Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 20px;
+      background-color: powderblue;
+      color: black;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    input[type="radio"],
+    input[type="checkbox"] {
+      margin-right: 5px;
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+      background-color: #007BFF;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+
+    .form-section {
+      margin-bottom: 40px;
+    }
+
+    .form-section h2 {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>University Admission Form</h1>
+  <form action="#" method="post">
+    <div class="form-section">
+      <h2>Personal Information</h2>
+      <label for="fullname">Full Name:</label>
+      <input type="text" id="fullname" name="fullname" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone:</label>
+      <input type="text" id="phone" name="phone" required>
+
+      <label for="address">Address:</label>
+      <input type="text" id="address" name="address" required>
+    </div>
+
+    <div class="form-section">
+      <h2>Academic Information</h2>
+      <label for="university">University:</label>
+      <input type="text" id="university" name="university" required>
+
+      <label for="major">Major:</label>
+      <input type="text" id="major" name="major" required>
+
+      <label for="gpa">GPA:</label>
+      <input type="text" id="gpa" name="gpa" required>
+    </div>
+
+    <div class="form-section">
+      <h2>Additional Information</h2>
+      <label for="extracurricular">Extracurricular Activities:</label>
+      <textarea id="extracurricular" name="extracurricular" rows="4" required></textarea>
+
+      <label for="reference">Reference:</label>
+      <textarea id="reference" name="reference" rows="4" required></textarea>
+    </div>
+
+    <div class="form-section">
+      <h2>Terms and Conditions</h2>
+      <input type="checkbox" id="agreement" name="agreement" required>
+      <label for="agreement">I agree to the terms and conditions.</label>
+    </div>
+
+    <input type="submit" value="Submit">
+    <input type="reset">
+  </form>
+</body>
+</html>

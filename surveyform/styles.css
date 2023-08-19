@@ -1,0 +1,75 @@
+ body{
+        margin: 0;
+        width: 100%;
+        height: 100vh;
+        font-family: tahoma;
+        font-size: 16px;
+        background-color: #1b1b32;
+        color: white;
+ }
+ #title, #description {
+    text-align: center;
+    margin: 1em auto;
+ }
+input,label {
+    display: block;
+    padding-bottom: 1.5em;
+}
+form {
+    margin: 0 auto;
+    width: 65%;
+    padding: 1.5em ;
+    max-width: 600px;
+    min-width: 300px;
+    background-color: rgb(15, 2, 39)
+}
+#submit 
+{
+    background-color: rgb(107, 23, 23);
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+    font-size: 1.5em;
+}
+input {
+    margin-top: 10px;
+    height: 2em;
+    padding: 0.5em;
+    background-color: rgb(34, 28, 28);
+    width: 100%;
+    border: none;
+    color:rgb(43, 128, 226);
+    border-radius: 5px;
+}
+.inline {
+    display:inline-block;
+    vertical-align: middle;
+    width: unset;
+    margin: 0 0.5em 0 0;
+    height: 1.5em;
+    width: 1.5em;
+}
+fieldset {
+    border-bottom: 0;
+    border:none;
+    margin-bottom: none;
+    padding-bottom: 0;
+}
+select {
+    width: 100%;
+    background-color: #1b1b32;
+    color: white;
+    margin-top: 0.5em;
+    padding: 0.5em;
+    margin-bottom: 0;
+    border-radius: 5px;
+    
+}
+textarea{
+    background-color: #1b1b32;
+    color:white;
+    width: 100%;
+    padding: 2px;
+    border:none;
+    border-radius: 10px;
+}
